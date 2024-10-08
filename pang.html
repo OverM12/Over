@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าเว็บส่วนตัวของฉัน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ยินดีต้อนรับสู่หน้าเว็บส่วนตัวของฉัน</h1>
+</header>
+
+<section>
+    <h2>การศึกษา</h2>
+    <p>ที่นี่คุณสามารถใส่ข้อมูลเกี่ยวกับการศึกษา เช่น วุฒิการศึกษา สถานศึกษา ปีที่จบการศึกษา เป็นต้น</p>
+</section>
+
+<section>
+    <h2>ติดต่อฉัน</h2>
+    <form action="#" method="post">
+        <label for="name">ชื่อ:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">ข้อความ:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">ส่งข้อความ</button>
+    </form>
+</section>
+
+</body>
+</html>
